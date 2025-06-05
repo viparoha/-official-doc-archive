@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>공식 문서 자료실</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="top-nav">
+        <nav>
+            <ul>
+                <li><a href="index.html">홈</a></li>
+                <li><a href="regional.html">지역 분석 개요</a></li>
+                <li><a href="visual.html">시각 분석 보고서</a></li>
+                <li><a href="purpose.html">문서 기록 목적</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <aside class="sidebar">
+        <nav>
+            <ul>
+                <li class="sidebar-item" data-photo="0">설치 기록</li>
+                <li class="sidebar-item" data-photo="1">색채 분석</li>
+                <li class="sidebar-item" data-photo="2">이동 패턴</li>
+                <li class="sidebar-item" data-photo="3">환경 조건 보고서</li>
+            </ul>
+        </nav>
+    </aside>
+
+    <main class="content">
+        <div id="photo-area">
+            <div class="image-container">
+                <img id="street" src="./assets/images/사진.jpg" alt="거리 풍경 이미지">
+            </div>
+        </div>
+
+        <!-- Regional Overview Document (Hidden on index.html) -->
+        <article id="overview" class="document" style="display: none;">
+            <!-- New 공문서 Structure -->
+            <div class="gongmun-header">
+                <h1>서울시 도시연구원</h1>
+            </div>
+
+            <div class="gongmun-meta">
+                <p>수신: 서울특별시장</p>
+                <p>경유: (해당 없음)</p>
+                <p>제목: 도시 분석 보고서 (제7구역)</p>
+            </div>
+
+            <div class="gongmun-body">
+                <p>귀 기관의 무궁한 발전을 기원합니다.</p>
+                <p>본 보고서는 서울시 제7구역에 대한 도시 분석 결과를 첨부와 같이 제출합니다.</p>
+                <ol>
+                    <li>
+                        <strong>지역 특성 및 구조 분석</strong>
+                        <ul>
+                            <li data-bullet="가">대상 지역은 주거, 상업, 공공시설이 혼합된 구조를 보이며, 도시 변화 양상을 반영하고 있습니다.</li>
+                            <li data-bullet="나">024-3 부지 동향 건물은 2011.09.02 등록되었으며, 교통 신호등 등 주변 시설물은 2008년부터 2015년에 걸쳐 설치되었습니다.</li>
+                        </ul>
+                    </li>
+                    <li>
+                        <strong>보행자 밀도 및 교통량 분석</strong>
+                        <ul>
+                            <li data-bullet="가">관할 기록 분석 결과, 해당 지역의 주중 보행자 밀도는 평균치를 상회하며, 특히 17:00 ~ 20:00 사이에 집중되는 경향이 확인되었습니다.</li>
+                        </ul>
+                    </li>
+                    <li>
+                        <strong>종합 의견</strong>
+                        <ul>
+                            <li data-bullet="가">분석 결과는 표준 도시 문서 보관 절차에 따라 관리될 예정입니다.</li>
+                        </ul>
+                    </li>
+                </ol>
+            </div>
+
+            <div class="gongmun-closing">
+                <p>붙임: 도시 분석 보고서 1부.</p>
+                <p>끝.</p>
+                <p>서울시 도시연구원장</p>
+            </div>
+        </article>
+
+        <!-- Visual Analysis Document (Hidden on index.html) -->
+        <article id="visual" class="document" style="display: none;">
+             <!-- New 공문서 Structure -->
+            <div class="gongmun-header">
+                <h1>서울시 도시연구원</h1>
+            </div>
+
+            <div class="gongmun-meta">
+                <p>수신: 시각 문화 기록 담당관</p>
+                <p>경유: (해당 없음)</p>
+                <p>제목: 시각 자료 평가 보고서 (제7구역 교차로)</p>
+            </div>
+
+            <div class="gongmun-body">
+                <p>귀 기관의 일익 번창하심을 기원합니다.</p>
+                <p>제7구역 교차로에 대한 시각 자료 평가 결과를 아래와 같이 보고합니다.</p>
+                <ol>
+                    <li>
+                        <strong>현장 관찰 결과</strong>
+                        <ul>
+                            <li data-bullet="가">대상 교차로는 채도가 낮은 푸른색과 콘크리트 회색이 주를 이루며, 교통 신호등 및 표지판의 색상과 대비를 이룹니다.</li>
+                            <li data-bullet="나">색상별 구분 표면(건물 외벽, 도로 표시)은 현행 안전 규격에 부합합니다.</li>
+                        </ul>
+                    </li>
+                    <li>
+                        <strong>이상 사례 보고</strong>
+                        <ul>
+                            <li data-bullet="가">서쪽 버스 정류장 패널에 낙서가 발견되었습니다.</li>
+                            <li data-bullet="나">025 구역 남쪽 벽의 표지판이 햇볕에 바래 있습니다.</li>
+                        </ul>
+                    </li>
+                    <li>
+                        <strong>종합 의견</strong>
+                        <ul>
+                            <li data-bullet="가">본 시각 자료 데이터는 도시 인지 분석 자료(파일 번호 47-2B)의 일부로 첨부하여 활용할 예정입니다.</li>
+                        </ul>
+                    </li>
+                </ol>
+            </div>
+
+            <div class="gongmun-closing">
+                <p>붙임: 시각 자료 평가 결과 1부.</p>
+                <p>끝.</p>
+                <p>서울시 도시연구원 시각 환경 조사반장</p>
+            </div>
+        </article>
+
+        <!-- Documentation Purpose Document (Hidden on index.html) -->
+        <article id="purpose" class="document" style="display: none;">
+             <!-- New 공문서 Structure -->
+            <div class="gongmun-header">
+                <h1>서울시 도시연구원</h1>
+            </div>
+
+            <div class="gongmun-meta">
+                <p>수신: 기록 이사회</p>
+                <p>경유: (해당 없음)</p>
+                <p>제목: 도시 현장 기록 및 분류 기준 명확화</p>
+            </div>
+
+            <div class="gongmun-body">
+                <p>기록 이사회의 발전을 기원하며,</p>
+                <p>본 문서는 제7구역 도시 현장의 기록 및 분류 근거에 대해 명확히 하고자 작성되었습니다.</p>
+                <ol>
+                    <li>
+                        <strong>기록 보존의 중요성</strong>
+                        <ul>
+                            <li data-bullet="가">일상적인 거리의 사건 및 공간 배치를 공식 기록으로 보존하는 것은 도시 이해를 위해 필수적입니다.</li>
+                        </ul>
+                    </li>
+                    <li>
+                        <strong>기록 활용 방안</strong>
+                        <ul>
+                            <li data-bullet="가">사소해 보일 수 있는 사건 기록도 장기적 관점에서 패턴 인식, 도시 행동 연구 및 시민 계획 수립에 중요한 자료가 될 수 있습니다.</li>
+                        </ul>
+                    </li>
+                    <li>
+                        <strong>본 파일의 성격</strong>
+                         <ul>
+                            <li data-bullet="가">본 파일은 단순한 일화적 보고서가 아닌, 공유 환경을 형성하는 무형의 서사를 이해하기 위한 기초 자료로서의 의미를 가집니다.</li>
+                        </ul>
+                    </li>
+                </ol>
+                <p>상기 내용에 따라, 본 문서는 프로토콜 3.19.7에 의거하여 파일링되었습니다.</p>
+            </div>
+
+            <div class="gongmun-closing">
+                <p>붙임: 관련 기록 자료 1부.</p>
+                <p>끝.</p>
+                <p>서울시 도시연구원 기록 윤리 담당관</p>
+            </div>
+        </article>
+    </main>
+
+    <!-- Object Report Modal -->
+    <div id="object-report-modal" class="document-modal hidden">
+        <div class="modal-overlay"></div>
+        <div class="modal-content">
+            <button class="modal-close">&times;</button>
+            <header class="document-header">
+                <h2>Object Detail Report</h2>
+            </header>
+            <section class="document-meta">
+                <p><strong>Ref:</strong> <span id="obj-report-ref"></span></p>
+                <p><strong>Date:</strong> <span id="obj-report-date"></span></p>
+                <p><strong>Agency:</strong> <span id="obj-report-agency"></span></p>
+            </section>
+            <section class="document-body">
+                 <p id="obj-report-body"></p>
+            </section>
+             <section class="document-signature">
+                <p><strong>Signed By:</strong></p>
+                <p id="obj-report-signature"></p>
+            </section>
+        </div>
+    </div>
+
+    <script>
+        // JavaScript for index.html
+        document.addEventListener('DOMContentLoaded', () => {
+            // Get references to elements
+            const sidebarItems = document.querySelectorAll('.sidebar-item');
+            const photoArea = document.getElementById('photo-area');
+            // Select all document sections again, even though they are not directly linked from top nav anymore on this page
+            const documents = document.querySelectorAll('.document');
+
+             // Function to hide all content areas (photo and all documents)
+            function hideAllContent() {
+                if (photoArea) photoArea.style.display = 'none';
+                documents.forEach(doc => {
+                    doc.style.display = 'none';
+                });
+            }
+
+            // Function to show the photo area
+            function showPhotoArea() {
+                hideAllContent();
+                if (photoArea) photoArea.style.display = 'block';
+            }
+
+             // Function to manage active class for a menu (top nav or sidebar)
+            function setActive(items, activeItem) {
+                items.forEach(item => item.classList.remove('active'));
+                if (activeItem) {
+                    activeItem.classList.add('active');
+                }
+            }
+
+             // Highlight the active link in the top nav for index.html
+            const currentPath = window.location.pathname.split('/').pop();
+            const topNavLinks = document.querySelectorAll('.top-nav a');
+            topNavLinks.forEach(link => {
+                if (link.getAttribute('href') === currentPath) {
+                    link.classList.add('active');
+                } else if (currentPath === '' && link.getAttribute('href') === 'index.html') {
+                     // Handle the case where index.html is the root (path is empty)
+                     link.classList.add('active');
+                }
+            });
+
+            // Add click handlers for left sidebar items
+            sidebarItems.forEach(item => {
+                item.addEventListener('click', () => {
+                    showPhotoArea(); // Show the street image (photo area)
+                    setActive(sidebarItems, item); // Set active class in sidebar
+                     // Remove active state from top nav items (optional for multi-page, but good practice)
+                    topNavLinks.forEach(topNavLink => topNavLink.classList.remove('active'));
+                });
+            });
+
+            // Initialization: Show photo area and activate the first sidebar item on page load
+             // Check if currently on index.html (should be the case for this script)
+             if (currentPath === 'index.html' || currentPath === '') {
+                showPhotoArea();
+                if (sidebarItems.length > 0) {
+                     // Find the list item containing the link to index.html in the top nav
+                    const homeLinkLi = document.querySelector('.top-nav a[href="index.html"]').closest('li');
+                    if (homeLinkLi) {
+                         // Set the Home link in the top nav as active on load
+                        setActive(document.querySelectorAll('.top-nav li'), homeLinkLi);
+                    }
+
+                    // Also activate the first sidebar item on the home page
+                    setActive(sidebarItems, sidebarItems[0]);
+                }
+             }
+        });
+    </script>
+</body>
+</html> 
